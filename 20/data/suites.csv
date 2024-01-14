@@ -1,0 +1,7 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Sun Jan 14 17:43:25 GMT 2024","Sun Jan 14 17:43:26 GMT 2024","1073","test","test_hotel_github_actions","TestHotelCicd","","","test_random_hotel_page",""
+"passed","Sun Jan 14 17:43:14 GMT 2024","Sun Jan 14 17:43:15 GMT 2024","1059","test","test_hootel","TestHootel","","","test_hotel_list",""
+"passed","Sun Jan 14 17:43:09 GMT 2024","Sun Jan 14 17:43:12 GMT 2024","2369","test","test_hootel","TestHootel","","","Hootel Login","A belépés tesztelése"
+"passed","Sun Jan 14 17:43:18 GMT 2024","Sun Jan 14 17:43:18 GMT 2024","10","test","test_hotel_github_actions","TestHotelCicd","","","test_hotel_list",""
+"passed","Sun Jan 14 17:43:04 GMT 2024","Sun Jan 14 17:43:07 GMT 2024","2685","test","test_hootel","TestHootel","","","Hootel Login","A belépés tesztelése"
+"passed","Sun Jan 14 17:43:21 GMT 2024","Sun Jan 14 17:43:22 GMT 2024","382","test","test_hotel_github_actions","TestHotelCicd","","","test_checkboxes",""

@@ -7,16 +7,15 @@ import pytest
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
-class TestHotelCICD:
+class TestHotelCicd(object):
 
     def setup_method(self):
-
+        URL = 'http://hotel-v3.progmasters.hu/'
         options = Options()
         options.add_experimental_option("detach", True)
         self.browser = webdriver.Chrome(options=options)
-        url = 'http://hotel-v3.progmasters.hu/'
-
-        self.browser.get(url)
+        
+        self.browser.get(URL)
         self.browser.maximize_window()
 
         hotel_list_btn = self.browser.find_element(By.XPATH, '//button[@class="btn btn-outline-primary btn-block"]')

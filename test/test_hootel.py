@@ -33,6 +33,8 @@ class TestHootel(object):
         #login_btn = self.browser.find_element(By.XPATH, '//a[@class="nav-link"]')
         login_btn.click()
 
+        time.sleep(0.5)
+
         email_input = self.browser.find_element(By.ID, 'email')
         email_input.send_keys(email)
 
@@ -47,8 +49,6 @@ class TestHootel(object):
         logout_btn = self.browser.find_element(By.ID, 'logout-link')
 
         assert logout_btn.text == "Kilépés"
-
-        logout_btn.click()
 
     def test_hotel_list(self):
         hotel_list_btn = self.browser.find_element(By.XPATH, '//button[@class="btn btn-outline-primary btn-block"]')

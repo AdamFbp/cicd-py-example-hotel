@@ -30,7 +30,7 @@ class TestHootel(object):
         #menu_toggle = WebDriverWait(self.browser, 5).until(EC.element_to_be_clickable((By.XPATH, '//button[@class="navbar-toggler collapsed"]')))
         #menu_toggle.click()
         login_btn = WebDriverWait(self.browser, 5).until(EC.element_to_be_clickable((By.XPATH, '//a[@class="nav-link"]')))
-        login_btn = self.browser.find_element(By.XPATH, '//a[@class="nav-link"]')
+        #login_btn = self.browser.find_element(By.XPATH, '//a[@class="nav-link"]')
         login_btn.click()
 
         email_input = self.browser.find_element(By.ID, 'email')
